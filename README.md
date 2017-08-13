@@ -1,2 +1,2 @@
 # romeo_sync
-sync module for ROMEO project
+ROMEO - Sync Module

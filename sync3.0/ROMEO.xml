@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Structure of videos connected to a single content (limited to a given time)-->
+<Service id="romeo.eu/1156228">
+    <!-- Description of all video streams -->
+    <Video>
+        <!-- uniquie number as stream name-->
+        <Stream id="1">
+            <!-- Number according to D4.1 Figure 4-->
+            <Camera id="2">
+                <!-- Layout according to D4.1 Figure 4 -->
+                <Layout left="halfcolour" right="" columns="odd" />
+                <Intrinsic>[1645.496689, 0.000000, 981.036861; 0.000000, 1645.496689, 532.629011; 0.000000, 0.000000, 1.000000]</Intrinsic>
+                <Extrinsic>[1, 0, 0, 0.000000; 0, 1, 0, 0; 0, 0, 1, 0]</Extrinsic>
+                <Near>0</Near>
+                <Far>0</Far>
+            </Camera>
+            <Camera id="3">
+                <Layout left="" right="halfcolour" columns="odd" />
+                <Intrinsic>[1645.496689, 0.000000, 981.036861; 0.000000, 1645.496689, 532.629011; 0.000000, 0.000000, 1.000000]</Intrinsic>
+                <Extrinsic>[1, 0, 0, -49.388752; 0, 1, 0, 0; 0, 0, 1, 0]</Extrinsic>
+                <Near>0</Near>
+                <Far>0</Far>
+            </Camera>
+            <!-- compressing codec -->
+            <Layer type="h264" />
+            <Transport DVBOrgNetworkId="2013" DVBTransportStreamId="1999" TSPID="1001" />
+            <!-- DVB stream:  Infos to confirm linkage -->
+        </Stream>
+        <Stream id="2">
+            <Camera id="2">
+                <Layout left="halfcolour" right="" columns="even" />
+                <Intrinsic>[1645.496689, 0.000000, 981.036861; 0.000000, 1645.496689, 532.629011; 0.000000, 0.000000, 1.000000]</Intrinsic>
+                <Extrinsic>[1, 0, 0, 0.000000; 0, 1, 0, 0; 0, 0, 1, 0]</Extrinsic>
+                <Near>0</Near>
+                <Far>0</Far>
+            </Camera>
+            <Camera id="3">
+                <Layout left="" right="halfcolour" columns="even" />
+                <Intrinsic>[1645.496689, 0.000000, 981.036861; 0.000000, 1645.496689, 532.629011; 0.000000, 0.000000, 1.000000]</Intrinsic>
+                <Extrinsic>[1, 0, 0, -49.388752; 0, 1, 0, 0; 0, 0, 1, 0]</Extrinsic>
+                <Near>0</Near>
+                <Far>0</Far>
+            </Camera>
+            <Layer type="h264svcbase" />
+            <Transport ipAddress="232.0.64.2" port="9602" srcIpAddress="10.110.1.77" TSPID="1002" />
+        </Stream>
+        <Stream id="3">
+            <Camera id="2">
+                <Layout left="halfcolour" right="" columns="even" />
+                <Intrinsic>[1645.496689, 0.000000, 981.036861; 0.000000, 1645.496689, 532.629011; 0.000000, 0.000000, 1.000000]</Intrinsic>
+                <Extrinsic>[1, 0, 0, 0.000000; 0, 1, 0, 0; 0, 0, 1, 0]</Extrinsic>
+                <Near>0</Near>
+                <Far>0</Far>
+            </Camera>
+            <Camera id="3">
+                <Layout left="" right="halfcolour" columns="even" />
+                <Intrinsic>[1645.496689, 0.000000, 981.036861; 0.000000, 1645.496689, 532.629011; 0.000000, 0.000000, 1.000000]</Intrinsic>
+                <Extrinsic>[1, 0, 0, -49.388752; 0, 1, 0, 0; 0, 0, 1, 0]</Extrinsic>
+                <Near>0</Near>
+                <Far>0</Far>
+            </Camera>
+            <Layer type="h264svcextension" />
+            <Transport ipAddress="232.0.64.2" port="9603" srcIpAddress="10.110.1.77" TSPID="1003" />
+        </Stream>
+        <Stream id="4">
+            <Camera id="2">
+                <Layout left="halfdepth" right="" columns="odd" />
+                <Intrinsic>[1645.496689, 0.000000, 981.036861; 0.000000, 1645.496689, 532.629011; 0.000000, 0.000000, 1.000000]</Intrinsic>
+                <Extrinsic>[1, 0, 0, 0.000000; 0, 1, 0, 0; 0, 0, 1, 0]</Extrinsic>
+                <Near>0</Near>
+                <Far>0</Far>
+            </Camera>
+            <Camera id="3">
+                <Layout left="" right="halfdepth" columns="odd" />
+                <Intrinsic>[1645.496689, 0.000000, 981.036861; 0.000000, 1645.496689, 532.629011; 0.000000, 0.000000, 1.000000]</Intrinsic>
+                <Extrinsic>[1, 0, 0, -49.388752; 0, 1, 0, 0; 0, 0, 1, 0]</Extrinsic>
+                <Near>0</Near>
+                <Far>0</Far>
+            </Camera>
+            <Layer type="h264svcbase" />
+            <Transport ipAddress="232.0.64.2" port="9604" srcIpAddress="10.110.1.77" TSPID="1004" />
+        </Stream>
+        <Stream id="5">
+            <Camera id="2">
+                <Layout left="halfdepth" right="" columns="odd" />
+                <Intrinsic>[1645.496689, 0.000000, 981.036861; 0.000000, 1645.496689, 532.629011; 0.000000, 0.000000, 1.000000]</Intrinsic>
+                <Extrinsic>[1, 0, 0, 0.000000; 0, 1, 0, 0; 0, 0, 1, 0]</Extrinsic>
+                <Near>0</Near>
+                <Far>0</Far>
+            </Camera>
+            <Camera id="3">
+                <Layout left="" right="halfdepth" columns="odd" />
+                <Intrinsic>[1645.496689, 0.000000, 981.036861; 0.000000, 1645.496689, 532.629011; 0.000000, 0.000000, 1.000000]</Intrinsic>
+                <Extrinsic>[1, 0, 0, -49.388752; 0, 1, 0, 0; 0, 0, 1, 0]</Extrinsic>
+                <Near>0</Near>
+                <Far>0</Far>
+            </Camera>
+            <Layer type="h264svcextension" />
+            <Transport ipAddress="232.0.64.2" port="9605" srcIpAddress="10.110.1.77" TSPID="1005" />
+        </Stream>
+        <Stream id="6">
+            <Camera id="2">
+                <Layout left="halfdepth" right="" columns="even" />
+                <Intrinsic>[1645.496689, 0.000000, 981.036861; 0.000000, 1645.496689, 532.629011; 0.000000, 0.000000, 1.000000]</Intrinsic>
+                <Extrinsic>[1, 0, 0, 0.000000; 0, 1, 0, 0; 0, 0, 1, 0]</Extrinsic>
+                <Near>0</Near>
+                <Far>0</Far>
+            </Camera>
+            <Camera id="3">
+                <Layout left="" right="halfdepth" columns="even" />
+                <Intrinsic>[1645.496689, 0.000000, 981.036861; 0.000000, 1645.496689, 532.629011; 0.000000, 0.000000, 1.000000]</Intrinsic>
+                <Extrinsic>[1, 0, 0, -49.388752; 0, 1, 0, 0; 0, 0, 1, 0]</Extrinsic>
+                <Near>0</Near>
+                <Far>0</Far>
+            </Camera>
+            <Layer type="h264svcbase" />
+            <Transport ipAddress="232.0.64.2" port="9606" srcIpAddress="10.110.1.77" TSPID="1006" />
+        </Stream>
+        <Stream id="7">
+            <Camera id="2">
+                <Layout left="halfdepth" right="" columns="even" />
+                <Intrinsic>[1645.496689, 0.000000, 981.036861; 0.000000, 1645.496689, 532.629011; 0.000000, 0.000000, 1.000000]</Intrinsic>
+                <Extrinsic>[1, 0, 0, 0.000000; 0, 1, 0, 0; 0, 0, 1, 0]</Extrinsic>
+                <Near>0</Near>
+                <Far>0</Far>
+            </Camera>
+            <Camera id="3">
+                <Layout left="" right="halfdepth" columns="even" />
+                <Intrinsic>[1645.496689, 0.000000, 981.036861; 0.000000, 1645.496689, 532.629011; 0.000000, 0.000000, 1.000000]</Intrinsic>
+                <Extrinsic>[1, 0, 0, -49.388752; 0, 1, 0, 0; 0, 0, 1, 0]</Extrinsic>
+                <Near>0</Near>
+                <Far>0</Far>
+            </Camera>
+            <Layer type="h264svcextension" />
+            <Transport ipAddress="232.0.64.2" port="9607" srcIpAddress="10.110.1.77" TSPID="1007" />
+        </Stream>
+        <Stream id="8">
+            <Camera id="1">
+                <!-- Number according to D4.1 Figure 4-->
+                <Layout left="halfcolour" right="halfdepth" columns="odd" />
+                <!-- Layout according to D4.1 Figure 4 -->
+                <Intrinsic>[1645.449047, 0.000000, 978.828575; 0.000000, 1645.449047, 532.637177; 0.000000, 0.000000, 1.000000]</Intrinsic>
+                <Extrinsic>[1, 0, 0, 50.924836; 0, 1, 0, 0; 0, 0, 1, 0]</Extrinsic>
+                <Near>0</Near>
+                <Far>0</Far>
+            </Camera>
+            <Layer type="h264svcbase" />
+            <!-- compressing codec -->
+            <Transport ipAddress="232.0.64.2" port="9608" srcIpAddress="10.110.1.77" TSPID="1008" />
+            <!--    P2P       multicast             UDP                             transport packet PID -->
+        </Stream>
+        <Stream id="9">
+            <Camera id="1">
+                <Layout left="halfcolour" right="halfdepth" columns="odd" />
+                <Intrinsic>[1645.449047, 0.000000, 978.828575; 0.000000, 1645.449047, 532.637177; 0.000000, 0.000000, 1.000000]</Intrinsic>
+                <Extrinsic>[1, 0, 0, 50.924836; 0, 1, 0, 0; 0, 0, 1, 0]</Extrinsic>
+                <Near>0</Near>
+                <Far>0</Far>
+            </Camera>
+            <Layer type="h264svcextension" />
+            <Transport ipAddress="232.0.64.2" port="9609" srcIpAddress="10.110.1.77" TSPID="1009" />
+        </Stream>
+        <Stream id="10">
+            <Camera id="1">
+                <Layout left="halfcolour" right="halfdepth" columns="even" />
+                <Intrinsic>[1645.449047, 0.000000, 978.828575; 0.000000, 1645.449047, 532.637177; 0.000000, 0.000000, 1.000000]</Intrinsic>
+                <Extrinsic>[1, 0, 0, 50.924836; 0, 1, 0, 0; 0, 0, 1, 0]</Extrinsic>
+                <Near>0</Near>
+                <Far>0</Far>
+            </Camera>
+            <Layer type="h264svcbase" />
+            <Transport ipAddress="232.0.64.2" port="9610" srcIpAddress="10.110.1.77" TSPID="1010" />
+        </Stream>
+        <Stream id="11">
+            <Camera id="1">
+                <Layout left="halfcolour" right="halfdepth" columns="even" />
+                <Intrinsic>[1645.449047, 0.000000, 978.828575; 0.000000, 1645.449047, 532.637177; 0.000000, 0.000000, 1.000000]</Intrinsic>
+                <Extrinsic>[1, 0, 0, 50.924836; 0, 1, 0, 0; 0, 0, 1, 0]</Extrinsic>
+                <Near>0</Near>
+                <Far>0</Far>
+            </Camera>
+            <Layer type="h264svcextension" />
+            <Transport ipAddress="232.0.64.2" port="9611" srcIpAddress="10.110.1.77" TSPID="1011" />
+        </Stream>
+        <Stream id="12">
+            <Camera id="4">
+                <Layout left="halfcolour" right="halfdepth" columns="odd" />
+                <Intrinsic>[1645.544332, 0.000000, 983.245148; 0.000000, 1645.544332, 532.620846; 0.000000, 0.000000, 1.000000]</Intrinsic>
+                <Extrinsic>[1, 0, 0, -100.354301; 0, 1, 0, 0; 0, 0, 1, 0]</Extrinsic>
+                <Near>0</Near>
+                <Far>0</Far>
+            </Camera>
+            <Layer type="h264svcbase" />
+            <Transport ipAddress="232.0.64.2" port="9612" srcIpAddress="10.110.1.77" TSPID="1012" />
+        </Stream>
+        <Stream id="13">
+            <Camera id="4">
+                <Layout left="halfcolour" right="halfdepth" columns="odd" />
+                <Intrinsic>[1645.544332, 0.000000, 983.245148; 0.000000, 1645.544332, 532.620846; 0.000000, 0.000000, 1.000000]</Intrinsic>
+                <Extrinsic>[1, 0, 0, -100.354301; 0, 1, 0, 0; 0, 0, 1, 0]</Extrinsic>
+                <Near>0</Near>
+                <Far>0</Far>
+            </Camera>
+            <Layer type="h264svcextension" />
+            <Transport ipAddress="232.0.64.2" port="9613" srcIpAddress="10.110.1.77" TSPID="1013" />
+        </Stream>
+        <Stream id="14">
+            <Camera id="4">
+                <Layout left="halfcolour" right="halfdepth" columns="even" />
+                <Intrinsic>[1645.544332, 0.000000, 983.245148; 0.000000, 1645.544332, 532.620846; 0.000000, 0.000000, 1.000000]</Intrinsic>
+                <Extrinsic>[1, 0, 0, -100.354301; 0, 1, 0, 0; 0, 0, 1, 0]</Extrinsic>
+                <Near>0</Near>
+                <Far>0</Far>
+            </Camera>
+            <Layer type="h264svcbase" />
+            <Transport ipAddress="232.0.64.2" port="9614" srcIpAddress="10.110.1.77" TSPID="1014" />
+        </Stream>
+        <Stream id="15">
+            <Camera id="4">
+                <Layout left="halfcolour" right="halfdepth" columns="even" />
+                <Intrinsic>[1645.544332, 0.000000, 983.245148; 0.000000, 1645.544332, 532.620846; 0.000000, 0.000000, 1.000000]</Intrinsic>
+                <Extrinsic>[1, 0, 0, -100.354301; 0, 1, 0, 0; 0, 0, 1, 0]</Extrinsic>
+                <Near>0</Near>
+                <Far>0</Far>
+            </Camera>
+            <Layer type="h264svcextension" />
+            <Transport ipAddress="232.0.64.2" port="9615" srcIpAddress="10.110.1.77" TSPID="1015" />
+        </Stream>
+    </Video>
+    <Audio>
+        <Stream id="1" type="plain">
+            <Speaker id="1" Position="FL" />
+            <Speaker id="2" Position="FR" />
+            <Layer type="stereo" compression="MPEG1L2" />
+            <Transport DVBOrgNetworkId="2013" DVBTransportStreamId="1999" TSPID="2001" />
+        </Stream>
+        <Stream id="2" type="plain">
+            <Speaker id="1" Position="FL" />
+            <!-- Position defined in CAE-861-E -->
+            <Speaker id="2" Position="FR" />
+            <Speaker id="3" Position="FC" />
+            <Speaker id="4" Position="RL" />
+            <Speaker id="5" Position="RR" />
+            <Speaker id="6" Position="LFE" />
+            <!---               Low Frequency Effects"-->
+            <Layer type="5.1" compression="AACv1-LOAS" />
+            <Transport DVBOrgNetworkId="2013" DVBTransportStreamId="1999" TSPID="2001" />
+        </Stream>
+        <Stream id="3" type="scenedesc">
+            <Transport ipAddress="232.0.64.2" port="10603" srcIpAddress="10.110.1.77" TSPID="2003" />
+            <!--    P2P       multicast             UDP                             transport packet PID -->
+        </Stream>
+        <Stream id="4" type="object">
+            <Transport ipAddress="232.0.64.2" port="10604" srcIpAddress="10.110.1.77" TSPID="2004" />
+            <!--    P2P       multicast             UDP                             transport packet PID -->
+        </Stream>
+    </Audio>
+</Service>

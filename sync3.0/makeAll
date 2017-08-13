@@ -1,0 +1,7 @@
+if (( $1 ))
+then
+    rm *.o
+	rm sync
+fi
+
+make -f Makefile
